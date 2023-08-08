@@ -1,0 +1,28 @@
+[
+  
+    {
+      "href": "/about",
+      "name": "About"
+    },
+
+    {
+      "href": "/login",
+      "name": "Login"
+    },
+   
+  
+    {
+      "href": "/profile",
+      "isPrivate": true,
+      "name": "Profile"
+    },
+    {
+      "href":"/register",
+      "name": "Register"
+    },
+    {
+      "href": "/logout",
+      "isPrivate": true,
+      "name": "Logout"
+    }
+  ] 

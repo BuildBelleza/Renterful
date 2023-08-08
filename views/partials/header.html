@@ -1,0 +1,10 @@
+<header>
+    <div><a href="/"> <img className="logo" id="logo" src="images/unscreen-039.png" alt="">  </div>
+    <nav class=" navs y-wrap">
+        ${
+            navs.map(nav =>`
+            <a class="${nav.className}" href="${nav.href}">${nav.name}</a>
+            `).join('')
+        }
+    </nav>
+</header>

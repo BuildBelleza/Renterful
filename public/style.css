@@ -1,0 +1,655 @@
+
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.slide {
+  justify-content: center;
+  max-width: 500px;
+  align-content: center;
+}
+body{
+    background-color: #686867;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.6;;
+    letter-spacing: normal;
+    height: 100%;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+
+html {
+    height: 100%;
+    align-self: center;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 0px 0;
+}
+
+
+header {
+  display: flex;
+  flex-direction: column;
+    background-color: white;
+    padding-left: 20px;
+    justify-content: space-between;
+    height: 150px;
+  
+}
+
+.about-content  {
+  display: flex;
+  margin: 20 20 20 20px;
+  justify-content: center;
+  max-height: 500px;
+}
+
+.register-content {
+  padding-top: 35px;
+}
+
+.main-content {
+    flex: 1;
+    animation-duration: 2s;
+    min-height: 200px;
+   margin-bottom: 15px;
+    max-width: 100%;
+    justify-content: center;
+    align-items:center;
+
+
+}
+
+.y-wrap {
+    margin: 0 auto;
+    width: 90%;
+    text-align: start;
+}
+    
+.y-sticky {
+
+/* height: 0 auto; */
+margin: 0 auto;
+max-height: 100px;
+
+}
+
+
+    .reginput-field{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    justify-content: center;
+    }
+
+    .reginput-field  .input-field {
+        height: 45px;
+        width: 87%;
+        border: none;
+        border-radius: 30px;
+        color: #fff;
+        font-size: 15px;
+        padding: 20 20 20 25px;
+        background: rgba(255,255,255,0.1);
+        outline: none;
+    }
+
+
+.credentials-container input[type="sumbit"] {
+    cursor:pointer;
+    margin-top: 45px;
+}
+
+*/
+
+
+
+
+.navs{
+    display: flex;
+    align-content: start;
+    
+    padding-top: 50px;
+ 
+}
+
+.navs a {
+  text-align: left;
+    color: black;
+    font-weight: 1000;
+    padding: 5px;
+    text-decoration: none;
+}
+.navs a:hover{
+    color: #f37704;
+    background-color:transparent;
+}
+
+.navs a.active {
+   color: #555b6e;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+      padding: 20px;
+     
+    }
+  
+    .navs {
+      
+      margin-top: 10px;
+    }
+  
+    .navs a {
+      padding: 10px;
+    }
+    
+  
+    .logo img {
+      max-width: 100px; 
+      height: auto; 
+      padding-top: 10px;
+      padding-left: 10px;
+     
+    }
+  }
+  
+fieldset{
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.landingbody{
+    background-color: white;
+     box-sizing: border-box;
+     height: 100%;
+     padding: 0;
+     margin: 0;
+}
+
+#output{
+    padding: 0px 20px;
+    
+}
+
+.box{
+    animation: pulse;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.box img{
+    max-width: 100%;
+    border-radius: 10px;
+   
+}
+
+#output p {
+    margin-bottom: 0px;
+}
+
+#output .btn{
+    float: right;
+}
+
+h4{
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+
+
+#output{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#output > div{
+    width: 23%;
+    padding: 20px 0px;
+}
+
+#output .boxImg{
+
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background-position: center;
+}
+ 
+
+
+@media screen and (max-width: 768px) {
+    #output {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  
+    #output > div {
+      width: 48%;
+      padding: 10px 0;
+    }
+  }
+  
+
+#social{
+    height: 25px;
+    max-height: 25px;
+    width: auto;
+}
+
+
+   .main_bg{
+    max-width: 1280px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+
+.bookingform-text {
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.bookingform-text h1 span img{
+    margin: 0 10px;
+}
+
+.bookingform-text h1{
+
+    font-size: 40px;
+    margin-bottom: 5px;
+
+}
+
+.bookingform-text p{
+    color: #fff;
+    font-size: large;
+}
+
+.bookmain-form{
+    margin: 10px 10px;
+    width: 300px;
+    display: inline-block;
+}
+
+.bookmain-form div input {
+    width: 100%;
+    background: none;
+    border: 1px solid #ffca00;;
+    font-size: 20px;
+    color: black;
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-top: 10px;
+}
+.bookmain-form div select{
+    width: 104%;
+    background: none;
+    border: 1px solid #ffca00;;
+    font-size: 20px;
+    color: black;
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-top: 10px;
+}
+.main-form div span{
+    width: 100%;
+    color: orange;
+    font-size: 25px;
+}
+.bookingform .form-group, .inputBox{
+    display: flex;
+
+    padding: 10px 0px;
+    align-items: center;
+}
+.bookingform .form-group > span, .inputBox > span,  .inputBox > label{
+    width: 250px;
+
+}
+
+#finalPrice{
+    text-align: right;
+    font-size: 40px;
+}
+.inputBox input{
+    border: none;
+    border-radius: 5px;
+    padding: 1px;;
+}
+.bookingform select{
+    width: 143px;
+
+}
+#submitbookBtn{
+    width: 100%;
+    text-align: center;
+}
+#submitbookBtn input{
+    width: 200px;
+    background-color: red,
+    color green;
+    transition: all .3s;
+}
+#submitbookBtn input:hover{
+    width: 200px;
+    background-color: black 
+
+}
+#submitbookBtn input:active{
+    font-size: 19px;
+    background-color: rgb(46, 20, 5) !important;
+    color: red;
+}
+
+@media screen and (max-width: 768px) {
+    .bookingform .form-group > span,
+    .inputBox > span,
+    .inputBox > label {
+      width: 100%;
+    }
+  
+    .bookingform select {
+      width: 100%;
+    }
+  
+    #submitbookBtn input {
+      width: 100%;
+    }
+  }
+  
+
+
+.s5050{
+    display: flex;;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.s5050 > div{
+    width: 50%;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+        
+
+
+/* login page style starts here */
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.container-login{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.centerBox{
+    max-height: 500px;
+    padding-bottom: 30px;
+}
+.homedisplay{
+    font-size: 30px;
+}
+.container-login-input{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+span{
+    color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+
+
+i{
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color: #fff;
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    color: black;
+    background: rgba(255,255,255,0.7);
+    cursor: pointer;
+    transition: .3s ;
+}
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.two-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    font-size: small;
+    margin-top: 10px;
+}
+.one{
+    display: flex;
+}
+label a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.homedisplay{
+    animation: zoomin; 
+    animation-duration: 2s;
+}
+
+
+
+.carousel-fade .carousel-item, .carousel-item img {
+    /* height: 100vh; */
+    object-fit: cover;
+   /* margin-left: 250px; */
+  /* max-height: 90vh; */
+  /* align-self: center; */
+  justify-content: center;
+  max-width: 100%;
+
+}
+
+footer{
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div{
+    text-align: left;
+}
+footer div:nth-child(2){
+    display: flex;
+    gap: 10px
+}
+#carouselExampleInterval {
+  padding-left: 200px;
+ align-content: center;
+ max-width:75%;lEm
+}
+
+.carousel-item {
+  width: 900px;
+  height: 500px;
+  background-size: cover;
+  justify-content: center;
+  align-self: center;  
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+    opacity: 1;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-left: 120px;
+}
+
+.grad {
+    font-size: 35px;
+
+    background-image: linear-gradient(to right, #f7f8f9 , #03c5f5);
+    background-clip: text;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .btn-primary{
+    color: white;
+    background-color:  #02c7f8;
+    border: none;
+    border-radius: 30px;
+    max-width: 400px;
+    align-self: center;
+    
+  }
+  .blue{
+    color: #2d545e;
+  }
+  .btn-primary:hover{
+    background-color: white;
+    color:  #2d545e;
+}
+  .btn-wide{
+    width: 100%;
+  }
+
+  .input-field .input{
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    color: black;
+    font-size: 15px;
+   margin-top: 20px;
+    background: white;
+    outline: none;
+}
+.input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: gray;
+    opacity: .5; /* Firefox */
+  }
+
+  .bookingImg{
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+  }
+
+  .bookingSet{
+    display: flex;;
+    margin-bottom: 30px;
+  }
+  .bookingSet > div{
+    width: 50%;
+  }
+  .bookingSet p{
+    margin: 0px;
+  }
+
+  .footer-bottom{
+    color: #02c7f8;
+    font-weight: 400;
+  }
+
+  
+#logo {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color:white;
+  color: #02c7f8;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.carousel-inner.first {
+  align-items: center;
+  /* margin-left: 50%; */
+  justify-content: center;
+}
+
+.carousel {
+  align-items: center;
+}
