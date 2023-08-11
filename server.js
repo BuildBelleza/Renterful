@@ -14,7 +14,7 @@ const navs = require('./data/navs.json')
 
 //import
 const server = express();
-const  PORT  = process.env.PORT || 8080;
+const  PORT  = process.env.PORT || 6789;
 
 // setting up - we dont touch this all the time 
 server.engine('html', es6Renderer);// rendering files 
@@ -34,33 +34,33 @@ server.use(sessions ({ //settings for sessions
 
 
 
-const { Pool } = require("pg");
+// const { Pool } = require("pg");
 
-// Initialize Express app
+// // Initialize Express app
 const app = express();
 
-// Configure the database connection
-const pool = new Pool({
-  user: "postgres",
-  host: "localhost",
-  database: "users",
-  password: "test",
-  port: 5432, // Default PostgreSQL port is 5432
-});
+// // Configure the database connection
+// const pool = new Pool({
+//   user: "postgres",
+//   host: "localhost",
+//   database: "users",
+//   password: "test",
+//   port: 5432, // Default PostgreSQL port is 5432
+// });
 
-// Test the database connection
-pool.query("SELECT NOW()", (err, res) => {
-  if (err) {
-    console.error("Error connecting to PostgreSQL database:", err);
-  } else {
-    console.log("Connected to PostgreSQL database at:", res.rows[0].now);
-  }
-});
+// // Test the database connection
+// pool.query("SELECT NOW()", (err, res) => {
+//   if (err) {
+//     console.error("Error connecting to PostgreSQL database:", err);
+//   } else {
+//     console.log("Connected to PostgreSQL database at:", res.rows[0].now);
+//   }
+// });
 
 
 
 // Start the server
-const port = 3000;
+const port = 6789;
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
