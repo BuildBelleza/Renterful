@@ -14,7 +14,7 @@ const navs = require('./data/navs.json')
 
 //import
 const server = express();
-const  PORT  = process.env.PORT || 6789;
+const  PORT  = process.env.PORT || 8080;
 
 // setting up - we dont touch this all the time 
 server.engine('html', es6Renderer);// rendering files 
@@ -60,7 +60,7 @@ const app = express();
 
 
 // Start the server
-const port = 6789;
+const port = 8080;
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
